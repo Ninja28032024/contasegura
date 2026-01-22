@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContaSegura - Gerenciador de Emails</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+        background-color: #f0f0f0;
+        overflow-x: hidden;
+      }
+      
+      /* Dot Pattern Background */
+      .bg-pattern {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        background-color: #e0e7ff;
+        background-image: radial-gradient(#4f46e5 1px, transparent 1px);
+        background-size: 24px 24px;
+        opacity: 0.4;
+        pointer-events: none;
+      }
+
+      /* Brutalist Shadow Utility */
+      .shadow-hard {
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+      }
+      .shadow-hard-sm {
+        box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+      }
+      .shadow-hard-lg {
+        box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+      }
+      
+      .active-press:active {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-BlbUfIEA.js"></script>
+</head>
+  <body>
+    <div class="bg-pattern"></div>
+    <div id="root"></div>
+</body>
+</html>
